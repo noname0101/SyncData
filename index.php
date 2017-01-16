@@ -18,9 +18,7 @@ div.innerBox {
 
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<title>Sync Data</title>
-	<script language="javascript" type="text/javascript" src="public/myJS.js"></script>
-    <script language="javascript" type="text/javascript" src="public/myAJAXlib.js"></script>
-	<script language="javascript" type="text/javascript" src="public/jquery-3.1.1.js"></script>
+	
     <script type="text/javascript">
 	function doSomething() {
 	    //$.get('http://localhost/SyncData/DropBox/stepOne.php');
