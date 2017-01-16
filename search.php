@@ -11,10 +11,7 @@ print_r($files2);
 	echo '</pre>';
 
 
-
-
-/* Returns an associative array of all files under a directory,
-including those inside of sub-directories, using recursion */
+//recursively search subdirectories 
 
 function scan($path) {
   $handle = $dir = opendir($path);
