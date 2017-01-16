@@ -25,16 +25,16 @@ function scan($path) {
   return $files;
 }
 
-$original = scan('../SyncData/WebFile/DropBox/');
-$thumbs = scan('../SyncData/WebFile/SendSpace/');
+$folder1 = scan('../SyncData/WebFile/DropBox/');
+$folder2 = scan('../SyncData/WebFile/SendSpace/');
 
-$missing['thumbs'] = array_diff($original, $thumbs);
-$missing['original'] = array_diff($thumbs, $original);
+$folder3['folder2'] = array_diff($folder1, $folder2);
+$folder3['folder1'] = array_diff($folder2, $folder1);
 
 echo '<pre>';
-print_r($missing);
-print_r($original);
-print_r($thumbs);
+print_r($folder3);
+print_r($folder1);
+print_r($folder2);
 
 echo '</pre>';
 
