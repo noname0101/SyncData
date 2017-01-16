@@ -24,17 +24,17 @@ div.innerBox {
     <script type="text/javascript">
 	function doSomething() {
 	    //$.get('http://SyncData/DropBox/stepOne.php');
-	    window.open('http://SyncData/Application/DropBox/code.php');
+	    window.open('http://localhost/SyncData/Application/DropBox/code.php');
 	    return;
 	}
     function loginSendSpace() {
-    	window.open('http://SyncData/Application/SendSpace/login.php');
+    	window.open('http://localhost/SyncData/Application/SendSpace/login.php');
 	}
 	function downloadDropBox() {
-    	window.open('http://SyncData/Application/DropBox/download.php');
+    	window.open('http://localhost/SyncData/Application/DropBox/download.php');
 	}
 	function search() {
-    	window.open('http://SyncData/search.php');
+    	window.open('http://localhost/SyncData/search.php');
 	}
     </script>
 	
